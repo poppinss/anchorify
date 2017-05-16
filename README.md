@@ -2,6 +2,8 @@
 
 Convert all links inside a string to HTML **anchor tags**. It supports.
 
+[![Travis](https://img.shields.io/travis/poppinss/anchorify.svg?style=flat-square)](https://travis-ci.org/poppinss/anchorify)
+
 1. URLs with(out) protocol.
 2. Detect email vs plain URLs.
 3. Adds `rel="noreferrer noopener"` as a security measure.

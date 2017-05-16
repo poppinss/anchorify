@@ -1,0 +1,24 @@
+{
+  "name": "anchorify",
+  "version": "1.0.0",
+  "description": "Convert urls to anchor tags inside a string",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "japa"
+  },
+  "keywords": [
+    "anchorify",
+    "linkify",
+    "url-to-link",
+    "url-to-anchor"
+  ],
+  "author": "amanvirk",
+  "license": "MIT",
+  "devDependencies": {
+    "japa": "^1.0.3",
+    "japa-cli": "^1.0.1"
+  }
+}

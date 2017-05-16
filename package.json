@@ -1,6 +1,6 @@
 {
   "name": "anchorify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert urls to anchor tags inside a string",
   "main": "index.js",
   "directories": {

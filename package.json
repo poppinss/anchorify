@@ -1,6 +1,6 @@
 {
   "name": "anchorify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert urls to anchor tags inside a string",
   "main": "index.js",
   "directories": {
@@ -20,5 +20,17 @@
   "devDependencies": {
     "japa": "^1.0.3",
     "japa-cli": "^1.0.1"
-  }
+  },
+  "dependencies": {
+    "japa": "^1.0.3",
+    "japa-cli": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinss/anchorify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/poppinss/anchorify/issues"
+  },
+  "homepage": "https://github.com/poppinss/anchorify#readme"
 }

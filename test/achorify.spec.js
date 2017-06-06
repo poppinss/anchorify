@@ -47,4 +47,8 @@ test.group('Anchorify', () => {
   test('do not convert invalid emails', (assert) => {
     assert.equal(anchorify('Send me a copy at http://foo@bar.com'), 'Send me a copy at <a href="http://foo@bar.com"> http://foo@bar.com </a>')
   })
+
+  test('do not touch existing anchor tags within multiple lines', (assert) => {
+    assert.equal(anchorify('Visit <a href="http://google.com"> \n Google </a>'), 'Visit <a href="http://google.com"> \n Google </a>')
+  })
 })

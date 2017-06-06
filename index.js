@@ -98,7 +98,7 @@ module.exports = function (str, options) {
    * Here we replace the existing anchor tags, so that
    * they are presevered
    */
-  var afterAnchorTags = str.replace(/<a.*\/a>/, function (match) {
+  var afterAnchorTags = str.replace(/<a.[\s\S*]*\/a>/, function (match) {
     anchors.push(match)
     index++
     return '[ac=' + index + ']'
